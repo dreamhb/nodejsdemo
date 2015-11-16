@@ -4,7 +4,8 @@ var url = require("url");
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-    res.send('respond with a resource');
+    //res.send('respond with a resource');
+    res.send(JSON.parse('{"name":"hubing", "color":"blue", "lover":"maomao"}'));
 });
 
 //post test
